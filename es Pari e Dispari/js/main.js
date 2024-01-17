@@ -6,6 +6,9 @@ const numMin = 1;
 const numMax = 5;
 
 startBtn.addEventListener("click", function () {
+  finalResult.classList.remove("text-success");
+  finalResult.classList.remove("text-danger");
+
   let userChoise = evenOroddInput.value;
   console.log("Scelta dall'utente: ", userChoise);
 
@@ -28,7 +31,7 @@ startBtn.addEventListener("click", function () {
     finalResult.innerText = "Hai vinto!!";
     finalResult.classList.add("text-success");
   } else {
-    finalResult.innerText = "Hai perso!!";
+    finalResult.innerText = "Hai perso!! Premi Giochiamo per riprovare";
     finalResult.classList.add("text-danger");
   }
 });
