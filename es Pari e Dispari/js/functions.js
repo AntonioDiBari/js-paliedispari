@@ -38,3 +38,17 @@ function getRandomNumber(min, max) {
   const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
   return randomNumber;
 }
+/**
+ * Dato un certo valore nell'argomento, la funzione restituisce una stringa contenente se il valore è pari o dispari
+ * @param {number} number Somma da controllare
+ * @returns Stringa se pari o dispari
+ */
+function evenOrodd(number) {
+  let result = "";
+  if (number % 2 == 0) {
+    result = "even";
+  } else {
+    result = "odd";
+  }
+  return result;
+}
