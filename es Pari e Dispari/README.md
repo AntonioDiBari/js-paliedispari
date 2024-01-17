@@ -15,8 +15,10 @@ Dichiariamo chi ha vinto.
 - Confronto con quello che aveva scelto l'utente
 - Decreto il vincitore stampando un messaggio
 
-**Monto la parola al contrario in una variabile**
+## Genero un numero random per il pc sempre da 1 a 5
 
-- con un ciclo prendo ogni singola lettera dell'"array" string partendo dall'ulitmo elemento proseguendo a ritroso
-- assegno ad una variabile ogni lettera che ottengo dal ciclo, che mi restituirà la parola al contrario
-- esco dal ciclo al raggiungimento dell'inizio della parola, ovvero la posizione 0.
+- Con una funzione creo il numero randomico, utilizzando le funzioni math.random e math.floor, imposto nell'argomento il min e il max
+
+## Stabilisco se la somma dei due numeri è pari o dispari
+
+- inizializzo una variabile che mi indicherà se la somma ottenuta, dopo un controllo sul suo resto prodotto dalla divisione per 2, sia pari o dispari
