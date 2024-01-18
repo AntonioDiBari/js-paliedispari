@@ -1,11 +1,11 @@
 const result = document.getElementById("result");
 
 // CHIEDO LA PAROLA
-let userWord = askWord();
+let userWord = askWord("verificare che sia palindorma");
 console.log(userWord);
 
 // MONTO LA PAROLA AL CONTRARIO
-let reversedWord = reverseWord();
+let reversedWord = reverseWord(userWord);
 console.log(reversedWord);
 
 // CONTRONTO LE PAROLE
